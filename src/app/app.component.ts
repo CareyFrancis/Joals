@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Joals';
+public  title = 'Joals';
+  quotes=[
+    newQuoteclass(1,'CareyOjall','desvtoof')
+]
 }
