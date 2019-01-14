@@ -1,0 +1,7 @@
+<div class="container">
+ <h1>Quotes</h1>
+
+
+ <div *ngFor='let quote of quoted;let i = index'>
+
+   <p> {{quote.author|titlecase}} "{{quote.quote}}"</p>
